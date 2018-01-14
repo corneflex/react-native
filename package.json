@@ -1,0 +1,37 @@
+{
+  "name": "AwsomeApp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "0.56",
+    "jest-expo": "23.0.0",
+    "prettier-eslint": "^8.7.4",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "flow": "flow",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^23.0.4",
+    "react": "16.0.0",
+    "react-native": "0.50.3"
+  }
+}
